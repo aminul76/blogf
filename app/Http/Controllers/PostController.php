@@ -18,7 +18,7 @@ class PostController extends Controller
     }
 
 
-
+    //new item
     public function index()
     {
         $posts = Post::all();
